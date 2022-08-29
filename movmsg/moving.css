@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background:black;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+
+}
+nav 
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0 10px;
+}
+.logo
+{
+    width: 120px;
+    cursor: pointer;
+}
+.menuicon
+{
+    width: 35px;
+    cursor: pointer;
+
+}
+nav ul{
+    flex:1;
+    text-align: right;
+    padding-right: 40px;
+}
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 40px;
+    border: i;
+    padding-bottom: 30px;
+
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+    transition: 1s;
+}
+nav ul li a:hover{
+    color: #fff724;
+
+}
+.textbox 
+{
+    margin: 15%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    
+}
+.textbox h1
+{
+    font-size: 60px;
+    line-height: 160px;
+}
+.textbox a{
+    border-radius: 10px;
+    border: 2px solid #fff724;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.textbox .but2
+{
+    background-color: #fff724;
+    color: #000;
+    font-weight: bolder;
+    border: 0;
+   
+}
+.header .sidebar
+{
+    width: 80px;
+    top: 0;
+    right: 0;
+    background-color:black;
+    height: 100%;
+    position: absolute;
+}
+.sidebar img{
+    width: 40px;
+    cursor: pointer;
+    margin: 30px;
+    
+}
+.socialmedia
+{
+    width: 100%;
+    height: 100%;
+    background-color: #fff724;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10;
+    border: 0;
+}
+.user
+{
+    position: absolute;
+    width: 400px;
+    right: 8%;
+    bottom: 0;
+}
+.but:hover,.but2:hover
+{
+    text-decoration: underline;
+}
+
